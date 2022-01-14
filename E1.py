@@ -9,3 +9,5 @@ for i in range(len(vector)):
     print(vector[i])
 for x in range(len(vector)-1,-1,-1):
     print(vector[x])
+    for x in range(len(vector) - 1, -1, -1):
+        print(vector[x])
